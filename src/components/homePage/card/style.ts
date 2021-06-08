@@ -37,7 +37,7 @@ export const ProductNameText = styled.span`
 `
 
 export const ProductPriceText = styled.span`
-  color: #333;
+  color: ${({ theme }) => theme.colors.priceCard};
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;

@@ -8,6 +8,11 @@ declare module 'styled-components' {
       background: string
       textCard: string
       backgroundCard: string
+      priceCard: string
+      sectionText: string
+      backgroundSearchBar: string
+      searchBarColor: string
+      formText: string
     }
     shadow: string
   }

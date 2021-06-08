@@ -34,4 +34,5 @@ export const TitleContent = styled.div`
 export const TitleText = styled.span`
   color: #fff;
   font-size: 28px;
+  cursor: pointer;
 `

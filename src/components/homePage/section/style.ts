@@ -19,7 +19,7 @@ export const SectionTitleContent = styled.div`
 `
 
 export const SectionTitleText = styled.span`
-  color: #555;
+  color: ${({ theme }) => theme.colors.sectionText};
   font-size: 20px;
   font-weight: bold;
 `

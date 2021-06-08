@@ -6,7 +6,7 @@ export const SearchContainer = styled.div`
   padding: 0 10px;
   margin: 15px;
   border: 1px solid #777;
-  background-color: #fff;
+  background-color: ${({ theme }) => theme.colors.backgroundSearchBar};
   border-radius: 30px;
 `
 
@@ -19,7 +19,7 @@ export const SearchInput = styled.input`
   padding: 0 10px;
   margin: 2px 0;
   border-radius: 30px;
-  color: #333;
+  color: ${({ theme }) => theme.colors.searchBarColor};
   font-size: 18px;
   ::placeholder {
     color: #777;
