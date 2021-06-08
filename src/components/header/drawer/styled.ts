@@ -12,7 +12,7 @@ export const DrawerHolder = styled.div`
 
 export const DrawerContainer = styled.div`
   width: 300px;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 20px;
